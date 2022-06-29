@@ -1,0 +1,23 @@
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: v1
+data:
+  mapRoles: |
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::048931713688:role/eksctl-simple-jwt-api-nodegroup-n-NodeInstanceRole-K796RQONB322
+      username: system:node:{{EC2PrivateDNSName}}
+    - groups:
+      - system:masters
+      rolearn: arn:aws:iam::048931713688:role/UdacityFlaskDeployCBKubectlRole
+      username: build
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2022-06-29T22:09:25Z"
+  name: aws-auth
+  namespace: kube-system
+  resourceVersion: "1762"
+  uid: 8b6e9ad7-ae4a-4d7b-adb2-0e3de995765d
