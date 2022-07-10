@@ -1,7 +1,7 @@
 { "Version": "2012-10-17",
 "Statement":[{
    "Effect": "Allow",
-   "Principal": {"AWS":"arn:aws:iam::048931713688:root"},
+   "Principal": {"AWS":"arn:aws:iam::346204448127:root"},
    "Action": "sts:AssumeRole"
 }]
 }
