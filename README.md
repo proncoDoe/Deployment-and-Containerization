@@ -27,9 +27,7 @@ screenshot of build failure
 
 ![build failure](https://i.ibb.co/82T7d9B/failing.png)
 
-Product Item View
-
-![Product Detail View](https://i.ibb.co/52t8r6N/failing2.png)
+![build failure](https://i.ibb.co/52t8r6N/failing2.png)
 
 
 ## Prerequisites
