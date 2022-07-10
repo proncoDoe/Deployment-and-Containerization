@@ -1,11 +1,11 @@
 ## Deploying a Flask API
 
-API endpoints: http://a2bb2482f64d344739d49b27bca7f670-1690794808.us-east-2.elb.amazonaws.com 
+API endpoints: http://abda5fc84c7e540d8bd5ebb104b577b8-279020224.us-east-2.elb.amazonaws.com 
 
 ### Example:
 
- export TOKEN=`curl -d '{"email":"abc@xyz.com","password":"mypwd"}' -H "Content-Type: application/json" -X POST a2bb2482f64d344739d49b27bca7f670-1690794808.us-east-2.elb.amazonaws.com/auth  | jq -r '.token'`
- `curl --request GET 'a2bb2482f64d344739d49b27bca7f670-1690794808.us-east-2.elb.amazonaws.com' -H "Authorization: Bearer ${TOKEN}" | jq .`
+ export TOKEN=`curl -d '{"email":"abc@xyz.com","password":"mypwd"}' -H "Content-Type: application/json" -X POST abda5fc84c7e540d8bd5ebb104b577b8-279020224.us-east-2.elb.amazonaws.com/auth  | jq -r '.token'`
+ curl --request GET 'abda5fc84c7e540d8bd5ebb104b577b8-279020224.us-east-2.elb.amazonaws.com' -H "Authorization: Bearer ${TOKEN}" | jq .
  
 
 This is the project starter repo for the course Server Deployment, Containerization, and Testing.
