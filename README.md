@@ -95,4 +95,4 @@ For more detail about each of these steps, see the project lesson.
 
 Kennedy Behrman instructor of Deploy flask app to kubernetes using EKS.
  Udacity.
-<https://www.alx-t.com/>
+<https://www.sc.com/>
